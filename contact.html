@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+ 	<link rel="stylesheet" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="css/main.css">
   	<title>Contacto</title>
-  	<link rel="stylesheet" href="css/font-awesome.min.css">
-  	<link rel="stylesheet" href="css/icomoon.css">
-  	<link rel="stylesheet" href="css/main.css">
 </head>
-	<body class="fondo_contc">
-		<form class="form-horizontal">
-			<div class="h1 btp text-center">Formulario User Testing 360</div>
-			<hr class="btp">
-			<div class="form-group">
-				<label for="inputEmail3" class="col-sm-4 control-label">Nombre <span> * </span></label>
-				<div class="col-sm-8">
-					<input id="inputEmail3" type="text" placeholder="nombre" class="form-control">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="inputPassword3" class="col-sm-4 control-label">Email<span> * </span></label>
-				<div class="col-sm-8">
-					<input id="inputEmail3" type="email" placeholder="Email" class="form-control">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="inputPassword3" class="col-sm-4 control-label">Deja tu URL <span> * </span></label>
-				<div class="col-sm-8"><textarea id="inputEmail3" type="text" placeholder="www." rows="3" class="form-control"></textarea>
-				</div>
-			</div>
-			<div class="form-group text-center">
-				<button class="btn btn-sm btn-primary pull-left">Enviar Email</button>
-			</div>
-			<div class="form-group">
-				<P class="pull-left">Power by Equipo Laboratoria</P>
-				<p class="pull-right">Report abuse</p>
-			</div>
-		</form>
-	</body>
+<body>
+<section class="formulario">
+   <div class="container-contact">
+   		<h2 class="text-center">Formulario User Testing 360</h2>
+        <hr> 
+       	<div class="row">           
+          	<form action="">
+             	<div class="form-group">
+                 	<label for="nombre" class="control-label col-md-2">Nombre*</label>
+                <div class="col-md-10">
+                    <input type="texto" class="form-control" name="Nombre">
+                </div>
+        		</div>              
+              	<div class="form-group">
+                 	<label for="email" class="control-label col-md-2">Email*</label>
+                <div class="col-md-10">
+                    <input type="texto" class="form-control" name="Email">
+                </div>
+              	</div>              
+              	<div class="form-group">
+                  	<label for="url" class="control-label col-md-2">Deja tu URL*</label>
+                  	<div class="col-md-10">
+                      	<textarea class="form-control" id="url"></textarea>
+                  	</div>
+              	</div>
+
+              	<div class="form-group">
+                  	<div class="col-md-2 col-md-offset-2">
+                     	<button class="btn btn-primary">Enviar email</button>
+                  	</div>
+                  	<div class="col-md-8">
+                  		<input class="form-control" type="text" >
+                	</div>                  
+              	</div>                  
+            </form>        
+       	</div>
+       	<p>Powered by <a href="#">Equipo Laboratoria</a>     <a href="#">Report abuse</a></p>  
+   	</div>    
+</section>
+</body>
 </html>
+
